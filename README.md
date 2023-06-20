@@ -16,6 +16,23 @@ a [Sails v1](https://sailsjs.com) application
 
 This app was originally generated on Tue Jun 20 2023 10:47:46 GMT+0100 (West Africa Standard Time) using Sails v1.5.4.
 
+### Get started
+
++ clone the repo
+```
+git clone <repo-link>
+```
+
++ install packages
+```
+npm install
+```
+
++ run the local server
+```
+sails l
+```
+
 <!-- Internally, Sails used [`sails-generate@2.0.8`](https://github.com/balderdashy/sails-generate/tree/v2.0.8/lib/core-generators/new). -->
 
 
