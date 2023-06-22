@@ -67,7 +67,7 @@ module.exports = {
     
     // grant the user a session
 
-    this.req.session.userId = userRecord.id
+    this.req.session.user = userRecord
 
     return userRecord
 
