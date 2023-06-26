@@ -1,6 +1,5 @@
 module.exports = async function (req, res, proceed) {
-    sails.log(`${req.method} - ${req.url}`)
+  sails.log(`${req.method} - ${req.url}`);
 
-    return proceed()
-
-}
+  return proceed();
+};

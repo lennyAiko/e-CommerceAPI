@@ -1,41 +1,27 @@
 module.exports = {
-
-
   friendlyName: 'Logout',
-
 
   description: 'Logout auth.',
 
-
-  inputs: {
-
-  },
-
+  inputs: {},
 
   exits: {
-
     success: {
-      description: 'User now logged out'
+      description: 'User now logged out',
     },
 
     redirect: {
-      description: 'Back to a desired route'
-    }
-
+      description: 'Back to a desired route',
+    },
   },
 
-
   fn: async function (inputs) {
-
     // delete user session
-    
-    delete this.req.session.userId
+
+    delete this.req.session.userId;
 
     // redirect user back to log in
 
-    throw {redirect: '/login'}
-
-  }
-
-
+    throw { redirect: '/login' };
+  },
 };
