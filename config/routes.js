@@ -18,4 +18,5 @@ module.exports.routes = {
 
   'GET /store/category/:id?': 'category/view',
   'POST /store/category/': 'category/create',
+  'PUT /store/category/:id': 'category/update',
 };
