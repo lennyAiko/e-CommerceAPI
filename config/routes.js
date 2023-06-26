@@ -16,7 +16,6 @@ module.exports.routes = {
   'POST /login': 'auth/login',
   'GET /logout': 'auth/logout',
 
-  'GET /store/category': 'category/all',
-  'GET /store/category/:id': 'category/single',
-  'POST /store/category': 'category/create',
+  'GET /store/category/:id?': 'category/view',
+  'POST /store/category/': 'category/create',
 };
